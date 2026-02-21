@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resetBtn {
+    height: 50px;
+    width: 200px;
+    margin: 25px;
+    font-weight: bold;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 642px;   
+  height: 650px;
+  border: 1px solid black;
+  box-sizing: border-box;
+
+}
+
+.square {
+  /* width: 39px;
+  height: 40px; */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 
+.square:hover {
+     background-color: #8c34a1; 
+} */
